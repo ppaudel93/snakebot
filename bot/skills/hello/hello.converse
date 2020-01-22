@@ -1,0 +1,11 @@
+@Intent('greeting', [
+    'Hey',
+    'Hello',
+    'Good afternoon',
+    'Good morning',
+    'Hi'
+])
+hello() {
+    @Format('endWithSmiley')
+    > Hello
+}

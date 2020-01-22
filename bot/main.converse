@@ -1,0 +1,10 @@
+@Event('start')
+start() {
+    > I am the snake bot. Enter !list for a list of commands
+}
+
+@Event('nothing')
+nothing() {
+    > I have no idea what to do :(
+}
+

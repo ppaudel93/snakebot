@@ -1,0 +1,7 @@
+@Intent(/!changename/i)
+changename() {
+  > What is your new name?
+  Prompt()
+  $name = :text
+  > Your name has been changed, { $name } :)
+}

@@ -3,6 +3,7 @@ import code from './main.converse'
 
 import helloSkill from './skills/hello/hello'
 import commandsSkill from './skills/command-list/commands'
+import changeNameSkill from './skills/change-name/change-name'
 
 export default {
     code,
@@ -10,6 +11,7 @@ export default {
         formats,
         helloSkill,
         commandsSkill,
+        changeNameSkill,
     },
     formats: {
         buttons(text, params) {

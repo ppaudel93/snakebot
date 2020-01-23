@@ -21,6 +21,7 @@ export default {
                 text
             } 
         },
+        
         endWithSmiley(text) {
             return text + ' :)'
         }
